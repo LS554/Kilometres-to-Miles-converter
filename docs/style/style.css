@@ -37,6 +37,7 @@
     margin-right: 10px;
     width: 170px;
     transition: box-shadow 0.15s;
+    border: 2px solid;
 } .button:hover {
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
