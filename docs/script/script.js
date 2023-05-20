@@ -28,5 +28,5 @@ function clear_boxes() {
 }
 
 function help() {
-    alert("Do not include the 'km' or  'm' in the input box.");
+    alert("Do not include 'km', 'm' or any non-digits in the input box.");
 }
