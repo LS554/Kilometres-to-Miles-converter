@@ -6,7 +6,7 @@ function m_to_km() {
     const km = parseFloat(input_box.value);
     const m = km * KM_TO_M;
     if (input_box.value != '') {
-        output_box.value = "KM = " + m.toFixed(5);
+        output_box.value = input_box.value + " miles = " + m.toFixed(5) + " kilometres";
     } else {
         output_box.value = '';
     }
@@ -16,7 +16,7 @@ function km_to_m() {
     const km = parseFloat(input_box.value);
     const m = km / KM_TO_M;
     if (input_box.value != '') {
-        output_box.value = "M = " + m.toFixed(5);
+        output_box.value = input_box.value + " kilometres = " + m.toFixed(5) + " miles";
     } else {
         output_box.value = '';
     }
