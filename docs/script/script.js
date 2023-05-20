@@ -26,3 +26,7 @@ function clear_boxes() {
     input_box.value = '';
     output_box.value = '';
 }
+
+function help() {
+    alert("Do not include the 'km' or  'm' in the input box.");
+}
