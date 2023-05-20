@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">
+                Kilometers to Miles Converter
+            </h1>
+            <div>
+                <input type="text" id="input_box" class="box" placeholder="Enter Kilometers or Miles">
+                <input type="text" id="output_box" readonly class="box output_box">
+            </div>
+            <div>
+                <button class="button" onclick="km_to_m()">
+                    Convert to Kilometers
+                </button>
+                <button class="button" onclick="m_to_km()">
+                    Convert to Miles
+                </button>
+                <button class="button" onclick="clear_boxes()">
+                    Clear Converter
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script/script.js"></script>
+</html>
